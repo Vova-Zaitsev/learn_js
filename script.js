@@ -30,4 +30,6 @@ user.phones[0] = prompt('Введите номер телефона:');
 users.push(user);
 
 var i;
-for (i = 0; i < users.lenght; i = i + 1) {console.log('Имя:' + users[i].firstName, +'Фамилия:' + users[i].lastName, +'Дата рождения:' + users[i].birthDay, +'Номер телефона:' + users[i].phones.join(', ')); }
+for (i = 0; i < users.lenght; i = i + 1) {
+    console.log('Имя:' + users[i].firstName, +'Фамилия:' + users[i].lastName, +'Дата рождения:' + users[i].birthDay, +'Номер телефона:' + users[i].phones.join(', ')); 
+}
